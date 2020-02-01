@@ -22,7 +22,7 @@ module.exports = {
 };
 ```
 
-Vi è anche la possibilità di iniettare una o più dipendenze di terze parti assieme all'entry principale; il grafo globale delle dipendenze sarà sempre uno solo:
+Vi è anche la possibilità di iniettare una o più dipendenze di terze parti assieme all'entry principale:
 
 ```javascript
 module.exports = {
@@ -33,6 +33,8 @@ module.exports = {
   },
 };
 ```
+Il grafo globale delle dipendenze sarà sempre uno solo perché le dipendenze dei vari file iniettati verranno unite a quelle del main file.
+
 
 ### Multiple entry
 
