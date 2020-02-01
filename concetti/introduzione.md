@@ -6,7 +6,7 @@ Webpack è un **static module bundler** che, nel processare la nostra applicazio
 
 Dalla versione 4 non richiede più un file di configurazione, anche se rimane aperta la possibilità di configurarlo all'estremo.
 
-### Entry
+## Entry
 
 È necessario \(almeno\) un punto iniziale dal quale iniziare a costruire il grafo delle dipendenze. Webpack determinerà in automatico tutte le sue dipendenze, dirette o indirette che siano, finché non avrà esaminato l'intero progetto.
 
@@ -18,7 +18,7 @@ module.exports = {
 };
 ```
 
-### Output
+## Output
 
 Di default webpack andrà ad inserire il _bundle_ generato nella cartella `/dist`, nominando il file principale `main.js`.
 
@@ -36,7 +36,7 @@ module.exports = {
 };
 ```
 
-### Loaders
+## Loaders
 
 Di default webpack è in grado di comprendere solo file `.js` e `.json`, ma vi è la possibilità, tramite quelli che sono chiamati **loaders**, di processare altri tipi di file per convertirli in moduli che possono essere utilizzati nel nostro progetto. Anche questi moduli verranno quindi inseriti nel grafo delle dipendenze.
 
@@ -60,7 +60,7 @@ module.exports = {
 };
 ```
 
-### Plugins
+## Plugins
 
 I plugin ci permettono di eseguire tutta una serie di operazioni utili come: ottimizzazione del _bundle_, gestione degli asset, iniezione delle variabili d'ambiente e così via. Per poter far uso di un plugin è necessario importarlo, instanziarlo ed inserirlo nell'array **plugins**:
 
@@ -80,7 +80,7 @@ module.exports = {
 };
 ```
 
-### Mode
+## Mode
 
 È possibile importare il field `mode` su tre valori diversi, corrispondenti a tre diversi livelli di ottimizzazione: `development`, `production` e `none`. Il valore di default è `production`:
 

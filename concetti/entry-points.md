@@ -2,7 +2,7 @@
 
 Vi sono più modi per definire il field **entry** in modo da impostare uno o più punti di ingresso della nostra applicazione.
 
-### Singola entry
+## Singola entry
 
 Le due seguenti sintassi sono equivalenti:
 
@@ -33,10 +33,10 @@ module.exports = {
   },
 };
 ```
+
 Il grafo globale delle dipendenze sarà sempre uno solo perché le dipendenze dei vari file iniettati verranno unite a quelle del main file.
 
-
-### Multiple entry
+## Multiple entry
 
 Nel caso in cui abbiamo più punti di ingresso tra loro indipendenti è utile avere la possibilità di impostarli:
 
