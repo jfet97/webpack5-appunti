@@ -48,4 +48,3 @@ module.exports = {
 ```
 
 Ogni entry point avrà un proprio grafo delle dipendenze associato ed un proprio bundle finale.
-

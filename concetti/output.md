@@ -14,7 +14,7 @@ module.exports = {
 
 Il file creato sarà: `./dist/bundle.js`.
 
-Se webpack è stato impostato per creare più bundle è necessario provvedere u n nome unico per ognuno di essi. Un modo per farlo è il seguente:
+Se webpack è stato impostato per creare più bundle è necessario provvedere un nome unico per ognuno di essi. Un modo per farlo è il seguente:
 
 ```javascript
 module.exports = {
@@ -30,4 +30,3 @@ module.exports = {
 ```
 
 I file creati saranno: `./dist/app.js` e `./dist/search.js`.
-
