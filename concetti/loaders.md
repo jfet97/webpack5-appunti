@@ -12,6 +12,7 @@ npm install --save-dev css-loader
 
 Dopodiché bisogna far sapere a webpack che desideriamo usare questo loader per importare i file `.css`:
 
+__webpack.config.js__
 ```javascript
 module.exports = {
   module: {
@@ -29,6 +30,7 @@ module.exports = {
 
 È possibile impostare più di un loader per un specifico tipo di file. I loader verranno eseguiti in cascata, a partire dall'ultimo, ed ognuno agirà sul prodotto del precedente:
 
+__webpack.config.js__
 ```javascript
 module.exports = {
   module: {

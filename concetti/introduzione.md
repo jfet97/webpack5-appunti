@@ -12,6 +12,7 @@ Dalla versione 4 non richiede più un file di configurazione, anche se rimane ap
 
 Di default l'entry point è `./src/index.js`, ma è possibile specificarne uno diverso, o anche impostarne più di uno, tramite il field **entry** del nile di configurazione:
 
+__webpack.config.js__
 ```javascript
 module.exports = {
   entry: './path/to/my/entry/file.js'
@@ -24,6 +25,7 @@ Di default webpack andrà ad inserire il _bundle_ generato nella cartella `/dist
 
 È possibile modificare questo comportamento agendo sul field **output**:
 
+__webpack.config.js__
 ```javascript
 const path = require('path');
 
@@ -42,6 +44,7 @@ Di default webpack è in grado di comprendere solo file `.js` e `.json`, ma vi �
 
 Il field **module.rules** può essere modificato per questo scopo:
 
+__webpack.config.js__
 ```javascript
 const path = require('path');
 
@@ -64,6 +67,7 @@ module.exports = {
 
 I plugin ci permettono di eseguire tutta una serie di operazioni utili come: ottimizzazione del _bundle_, gestione degli asset, iniezione delle variabili d'ambiente e così via. Per poter far uso di un plugin è necessario importarlo, instanziarlo ed inserirlo nell'array **plugins**:
 
+__webpack.config.js__
 ```javascript
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // installato via npm
 const webpack = require('webpack'); // per accedere ai plugin di default
@@ -84,6 +88,7 @@ module.exports = {
 
 È possibile importare il field `mode` su tre valori diversi, corrispondenti a tre diversi livelli di ottimizzazione: `development`, `production` e `none`. Il valore di default è `production`:
 
+__webpack.config.js__
 ```javascript
 module.exports = {
   mode: 'production'

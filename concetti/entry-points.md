@@ -6,6 +6,7 @@ Vi sono più modi per definire il field **entry** in modo da impostare uno o pi�
 
 Le due seguenti sintassi sono equivalenti:
 
+__webpack.config.js__
 ```javascript
 module.exports = {
   entry: {
@@ -16,6 +17,7 @@ module.exports = {
 
 e la sua shorthand:
 
+__webpack.config.js__
 ```javascript
 module.exports = {
   entry: './path/to/my/entry/file.js'
@@ -24,6 +26,7 @@ module.exports = {
 
 Vi è anche la possibilità di iniettare una o più dipendenze di terze parti assieme all'entry principale:
 
+__webpack.config.js__
 ```javascript
 module.exports = {
   entry: {
@@ -40,6 +43,7 @@ Il grafo globale delle dipendenze sarà sempre uno solo perché le dipendenze de
 
 Nel caso in cui abbiamo più punti di ingresso tra loro indipendenti è utile avere la possibilità di impostarli:
 
+__webpack.config.js__
 ```javascript
 module.exports = {
   entry: {
