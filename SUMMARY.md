@@ -2,10 +2,10 @@
 
 * [Webpack 5](README.md)
 
-## Concetti
+## Concetti Base
 
-* [Introduzione](concetti/introduzione.md)
-* [Entry Points](concetti/entry-points.md)
-* [Output](concetti/output.md)
-* [Loaders](concetti/loaders.md)
-* [Plugins](concetti/plugins.md)
+* [Introduzione](concetti_base/introduzione.md)
+* [Entry Points](concetti_base/entry-points.md)
+* [Output](concetti_base/output.md)
+* [Loaders](concetti_base/loaders.md)
+* [Plugins](concetti_base/plugins.md)
