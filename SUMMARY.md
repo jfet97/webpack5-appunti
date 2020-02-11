@@ -9,3 +9,4 @@
 * [Output](concetti_base/output.md)
 * [Loaders](concetti_base/loaders.md)
 * [Plugins](concetti_base/plugins.md)
+* [Configurations](concetti_base/configurations.md)
