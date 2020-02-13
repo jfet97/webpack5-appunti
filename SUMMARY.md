@@ -13,3 +13,4 @@
 * [Modules](concetti_base/modules.md)
 * [Modules Resolution](concetti_base/module_resolution.md)
 * [Dependency Graph](concetti_base/dependency_graph.md)
+* [Targets](concetti_base/targets.md)
