@@ -17,4 +17,4 @@
 
 ## Guide
 
-* [Getting STarted](guide/getting_started.md)
+* [Getting Started](guide/getting_started.md)
