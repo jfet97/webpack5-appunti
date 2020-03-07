@@ -14,3 +14,7 @@
 * [Modules Resolution](concetti_base/module_resolution.md)
 * [Dependency Graph](concetti_base/dependency_graph.md)
 * [Targets](concetti_base/targets.md)
+
+## Guide
+
+* [Getting STarted](guide/getting_started.md)
